@@ -1,0 +1,232 @@
+---
+layout: page
+---
+
+<div class="wrapper">
+  <div class="container content">
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="col-md-3">
+            <div style="text-align:center;">
+              <img src="{{"/images/trainings/java.jpg"}}" alt="logo" style="height:130px; width:130px;">
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="text-center">
+              <h2 class="course_title title-center">Java Training</h2>
+            </div>
+            <p class="content_desc">
+              This training program ensures that you / your team will know ins & outs of Java.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="pull-right">
+            <a class="btn-u btn-brd btn-u btn-u-lg wow bounceInLeft animated" href="{{"/contact-us" | prepend: site.baseurl}}"><i class="fa fa-bullhorn"></i>
+              Training In Mind?</a>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row tab-v3">
+              <div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                  <li class="java_performance active">
+                    <a href="{{"/trainings/java/performance" | prepend: site.baseurl}}"  >
+                      <i class="fa fa-cube"></i>Java Performance
+                    </a>
+                  </li>
+                  <li class="concurrency">
+                    <a href="{{"/trainings/java/concurrency" | prepend: site.baseurl}}">
+                      <i class="fa fa-cube"></i>Java Concurrency
+                    </a>
+                  </li>
+                  <li class="design_pattern">
+                    <a href="{{"/trainings/java/design-patterns" | prepend: site.baseurl}}"  >
+                      <i class="fa fa-cube"></i>Java Design Patterns
+                    </a>
+                  </li>
+                </ul>
+                <br>
+                <br>
+                <h3 class="wow bounceIn animated">Explore More Courses</h3>
+                <ul class="list-unstyled">
+                  <a href="{{"/trainings/liferay/developer" | prepend: site.baseurl}}">
+                    <li class="other_courses">&nbsp;&nbsp;<i class="fa fa-cube"></i>&nbsp;&nbsp;Liferay Technologies</li>
+                  </a>
+                  <a href="{{"/trainings/ui-technologies/backbone-js" | prepend: site.baseurl}}">
+                    <li class="other_courses">&nbsp;&nbsp;<i class="fa fa-cube"></i>&nbsp;&nbsp;UI Technologies</li>
+                  </a>
+                  <a href="{{"/trainings/atlassian/jira" | prepend: site.baseurl}}">
+                    <li class="other_courses">&nbsp;&nbsp;<i class="fa fa-cube"></i>&nbsp;&nbsp;Atlassian Products</li>
+                  </a>
+                  <a href="{{"/trainings/others/anypoint" | prepend: site.baseurl}}">
+                    <li class="other_courses">&nbsp;&nbsp;<i class="fa fa-cube"></i>&nbsp;&nbsp;Other Technologies..</li>
+                  </a>
+                </ul>
+              </div>
+
+              <div class="col-md-9">
+                <div class="tab-content">
+                  <h2 class="tab_heading">COURSE CONTENT</h2>
+                  <div class="fade in java_performance" id="java_performance">
+                    <div class="pull-right">
+                      <a href="{{"/pdfs/liferay/JavaPerformanceTuning.pdf" | prepend: site.baseurl}}" class="bck_pdf" target="_blank">Download Course Content</a>
+                    </div>
+
+                    <div class="profile-body margin-bottom-20">
+                      <div class="row margin-bottom-20">
+
+                        <div class="col-sm-12 sm-margin-bottom-20">
+
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch1: Introduction to Profiling, Monitoring & Tuning</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>What is profiling & monitoring</li>
+                              <li><i class="fa fa-check"></i>What to monitor : GC, Methods, CPU Usage, Object Creation, Threads, I/O</li>
+                              <li><i class="fa fa-check"></i>How to Monitor : Profiling, Sampling, JVM TI / PI, Byte Code Instrumentation</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch2: Understanding Garbage Collection in Java</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Why GC monitoring is important from performance perspective, Tracing Collectors / MarkSweep, Copy Collectors, Understanding the pros and cons of Copy & MarkSweep</li>
+                              <li><i class="fa fa-check"></i>Heap fragmentation, heap expansion & compaction</li>
+                              <li><i class="fa fa-check"></i>Generational collectors in HotSpot</li>
+                              <li><i class="fa fa-check"></i>Serial GC, ParallelGC & Concurrent GC</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch3: Monitoring & Tuning Garbage Collection in Java</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Monitoring Heap expansion & contraction</li>
+                              <li><i class="fa fa-check"></i>Understanding reasons of OOME</li>
+                              <li><i class="fa fa-check"></i>Generating & understanding the GC log files</li>
+                              <li><i class="fa fa-check"></i>Monitoring frequency of GC & time it takes</li>
+                              <li><i class="fa fa-check"></i>Finding pre-matured promotions</li>
+                              <li><i class="fa fa-check"></i>Configuring rotating log files</li>
+                              <li><i class="fa fa-check"></i>Sizing the heap & generations</li>
+                              <li><i class="fa fa-check"></i>Selecting the right collector to tune GC</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch4:  Profiling the CPU (Method Profiling)</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>What is CPU Profiling and why is it needed</li>
+                              <li><i class="fa fa-check"></i>Understanding Hotspots in threads</li>
+                              <li><i class="fa fa-check"></i>Tools to get the hotspots</li>
+                              <li><i class="fa fa-check"></i>Understanding the hotspot - call tree</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch5: Enhancing Performance of CPU Hungry Code</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Parallelizing loops for performance</li>
+                              <li><i class="fa fa-check"></i>Do not reinvent the wheel - Using Cyclic Barrier, Phasers, Fork & Joins</li>
+                              <li><i class="fa fa-check"></i>Optimizing usage of Strings</li>
+                              <li><i class="fa fa-check"></i>Optimizing hashCode & equals for HashMaps</li>
+                              <li><i class="fa fa-check"></i>Database Tuning</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch6: Java Memory Profiling & Monitoring</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>What is Memory Profiling & why is it needed</li>
+                              <li><i class="fa fa-check"></i>Understanding heap occupancy & detecting Memory Leaks</li>
+                              <li><i class="fa fa-check"></i>Understanding ClassLoader Leaks</li>
+                              <li><i class="fa fa-check"></i>Generating heap dumps</li>
+                              <li><i class="fa fa-check"></i>Understanding the concept of Shallow Size, Retained Size & Dominating Objects</li>
+                              <li><i class="fa fa-check"></i>Using Eclipse MAT to detect memory leaks</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch7: Object Creation Techniques</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Efficient working with Collection Data Structures</li>
+                              <li><i class="fa fa-check"></i>Canonicalizing Objects emptySet, emptyList, emptyMap</li>
+                              <li><i class="fa fa-check"></i>Working with Exception Objects</li>
+                              <li><i class="fa fa-check"></i>Caching and its impact on performance</li>
+                              <li><i class="fa fa-check"></i>Developing Canonicalized Mappings using WeakReferences</li>
+                              <li><i class="fa fa-check"></i>Developing Memory-Sensitive Caches using SoftReferences</li>
+                              <li><i class="fa fa-check"></i>Pooling, Singleton, Prototype</li>
+                              <li><i class="fa fa-check"></i>Timing the object creation - eager, early</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch8: Monitoring Threads</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Understanding Thread States</li>
+                              <li><i class="fa fa-check"></i>Understanding DeadLock, LiveLock & Starvation</li>
+                              <li><i class="fa fa-check"></i>What is thread contention</li>
+                              <li><i class="fa fa-check"></i>What are entry-sets and wait-sets</li>
+                              <li><i class="fa fa-check"></i>Understanding Memory Barriers</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch9: Coding Concurrency for Performance</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>General Techniques to improve performance of Concurrency code</li>
+                              <li><i class="fa fa-check"></i>Using Volatile, Atomic Variables & Contended Locks</li>
+                              <li><i class="fa fa-check"></i>Using Lock API - tryLock etc to avoid deadlocks</li>
+                              <li><i class="fa fa-check"></i>Code Motion</li>
+                              <li><i class="fa fa-check"></i>Code Fusion</li>
+                              <li><i class="fa fa-check"></i>Concurrent Data Structures in java.util.concurrent</li>
+                            </ul>
+                          </div>
+                          <div class="profile-blog">
+                            <div class="name-location">
+                              <p class="ch_strong">Ch10: HotSpot Tuning for 64 Bit & NUMA</p>
+                            </div>
+                            <div class="clearfix margin-bottom-20"></div>
+                            <ul class="list-unstyled lists-v2">
+                              <li><i class="fa fa-check"></i>Memory Considerations on 64Bit Architectures</li>
+                              <li><i class="fa fa-check"></i>Compressed Oops</li>
+                              <li><i class="fa fa-check"></i>Escape Analysis</li>
+                              <li><i class="fa fa-check"></i>NUMA Collector Enhancements</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

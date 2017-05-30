@@ -1,0 +1,103 @@
+---
+layout: page
+---
+
+<div class="wrapper">
+  <div class="container content">
+    <div class="row margin-bottom-30">
+      <div class="col-md-6 mb-margin-bottom-30">
+        <div class="row">
+          <div class="headline"><h2>Give Us a Shout</h2></div>
+          <form action="#" method="post" id="sky-form3" class="sky-form contact-style">
+
+            <!-- <div class="row sky-space-20">
+            <div class="col-md-8">
+            <div class="msg">
+            <div class="alert alert-success fade in">
+            <button type="button" class="close" data-dismiss="alert"
+            aria-hidden="true">×</button>
+            <i class="rounded-x fa fa-check"></i><strong>&nbsp;<%=portletSession.getAttribute("msg")%></strong>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <fieldset class="no-padding">
+      <div class="row sky-space-20">
+        <div class="col-md-8">
+          <input type="text" name="<portlet:namespace/>name" class="form-control" placeholder="Name">
+        </div>
+      </div>
+      <div class="row sky-space-20">
+        <div class="col-md-8">
+          <input name="<portlet:namespace/>email" id="<portlet:namespace/>email" class="form-control" type="text" placeholder="Email" required="required">
+        </div>
+      </div>
+      <div class="row sky-space-20">
+        <div class="col-md-8">
+          <input type="text" name="<portlet:namespace/>phone" id="<portlet:namespace/>phone" class="form-control" placeholder="Phone">
+        </div>
+      </div>
+      <div class="row sky-space-20">
+        <div class="col-md-8">
+          <textarea rows="8" name="<portlet:namespace/>message" id="<portlet:namespace/>message" class="form-control" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <input type="hidden" name="<portlet:namespace/>redirectURL" value="<%=PortalUtil.getCurrentURL(request)%>">
+      <p>
+        <button type="submit" name="contactUs" id="contactUs" class="btn-u btn-brd rounded btn-u-sea btn-u-lg col-md-8">Send Message</button>
+      </p>
+    </fieldset>
+  </form>
+</div>
+</div>
+
+<div class="col-md-6">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="headline">
+        <h2>Contacts-INDIA</h2>
+      </div>
+
+      <ul class="list-unstyled who margin-bottom-30">
+        <li class="contact-li"><i class="fa fa-home"></i>204, Labh Complex,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atladra,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vadodara,Gujarat.</li>
+          <li class="contact-li"><i class="fa fa-phone"></i><a href="#">sales@booleanminds.com</a></li>
+          <li class="contact-li"><i class="fa fa-envelope"></i>+91 9825204250</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6"><img src="{{"/images/contact-us/contact-us.jpg" | prepend: site.baseurl}}"
+        style="height: 200px; width: 280px; margin-top: 20px;" /></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!--
+
+<script type="text/javascript" src="{{"/js/jquery.min.js" | prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/jquery-migrate.min.js" | prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/bootstrap.min.js" | prepend:site.baseurl}}"></script>
+
+
+<script type="text/javascript" src="{{"/js/smoothScroll.js"| prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/jquery.form.min.js"| prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/jquery.validate.min.js"| prepend:site.baseurl}}"></script>
+
+<script type="text/javascript" src="{{"/js/app.js"| prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/login.js"| prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/contact.js"| prepend:site.baseurl}}"></script>
+<script type="text/javascript" src="{{"/js/pagecontacts.js"| prepend:site.baseurl}}"></script> -->
+
+<!-- <script type="text/javascript">
+jQuery(document).ready(function() {
+App.init();
+LoginForm.initLoginForm();
+ContactForm.initContactForm();
+});
+
+</script> -->

@@ -1,0 +1,495 @@
+
+/* header */
+.navbar-toggle{
+	background-color:rgb(24,169,58) !important;
+}
+.header-fixed .header-v5.header-fixed-shrink {
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    height: 65px !important;
+    margin-top: -29.5px;
+    border-bottom: medium none;
+    box-shadow: 0px 0px 3px #BBB;
+    background: #fff none repeat scroll 0% 0%;
+    transition: background 0.4s ease 0s;
+    position: fixed;
+    top: 25px !important;
+}
+/* end of header */
+/* course content */
+
+    .lists-v2 {
+        padding: 20px !important;
+        background: #FFF none repeat scroll 0% 0% !important;
+/*      height: 200px !important;
+        overflow-y: scroll; */
+    }
+    .course_title{
+        margin-top: 5px;
+        color: #000;
+        margin-bottom: 10px;
+        font-weight: 400 !important;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .content_desc {
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .ch_strong{
+    font-size: 15px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: -15px !important;
+	margin-top: 10px;
+	color:#000;
+    }
+    .lists-v2 li{
+    font-size:15px;
+    }
+    .tab-v3 .tab-content{
+    background: #EDEDED none repeat scroll 0% 0% !important;
+    }
+    .tab-v3 .nav-pills li{
+    background: #EDEDED none repeat scroll 0% 0% !important;
+    }
+    .tab_heading{
+    text-align: center;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 5px;
+	color:#000;
+    }
+    /* a[href $='.pdf'] {
+   	padding-right: 18px;
+   	background: transparent url(pdf_logo.png) no-repeat center right;
+	} */
+	.bck_pdf{
+	/* padding-right: 18px; */
+	padding:25px;
+   	background: transparent url(../images/course_content/pdf_icon.png) no-repeat center right;
+	}
+	.other_courses{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 200;
+	}
+
+/* end of course content */
+
+/* trainer profile */
+
+    .profile-content {
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    .trainer-name {
+        color: #000000;
+    }
+
+    .progress-bar-u {
+        background: rgba(198, 87, 75, 0.64) none repeat scroll 0% 0%;
+    }
+
+    .testimonials-v3 {
+        background-color: #FFF;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .trainer-title {
+        font-weight: 200 !important;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .trainer_image {
+        height: 350px;
+        width: 400px;
+        margin-bottom: 10px;
+    }
+/* end of trainer profile */
+
+/* teaser */
+
+.breadcrumbs-v3.teaser1{
+	background: transparent url("../images/corporate_training/corp_teaser.jpg") no-repeat scroll bottom center / cover;
+	height: 350px;
+}
+.breadcrumbs-v3.teaser2{
+	background: transparent url("../images/campus_to_corporate/books_teaser.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+}
+.breadcrumbs-v1.teaser1{
+	background: transparent url("../images/landing/landing_teaser.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+}
+/* .breadcrumbs-v3.teaser3{
+	background: transparent url("../images/campus_to_corporate/books_teaser.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+}
+*/
+.breadcrumbs-v3.teaser4{
+	background: transparent url("../images/teaser/about_us_teaser.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+}
+.breadcrumbs-v3 p{
+	text-transform:none !important;
+}
+/* end of teaser */
+
+/* landing page */
+
+.silos-content{
+	padding-top:20px;
+}
+.service .desc h4{
+	color: #000;
+}
+p{
+	font-size: 16px;
+	font-weight: 200;
+	text-align:justify;
+}
+.info-blocks .info-blocks-in p{
+	font-size: 16px !important;
+}
+.course-marg{
+        margin-bottom: 15px;
+    }
+    .course-tab{
+        height: 250px;
+    }
+    .img-bor{
+        border: 1px solid #EEEEEE;
+    }
+    .content-boxes-v3 .content-boxes-in-v3 h3 a{
+    color:#000;
+    }
+    .content-sml{
+    padding-top:30px;
+    padding-bottom:30px;
+    }
+    .ls-background {
+        background:transparent url("../images/landing/lndg_teaser.jpg") no-repeat scroll center center/cover;
+    }
+    .tech-link{
+    color:#fff;
+    font-weight:300;
+    }
+    .tech-link > a:focus{
+    color:#fff !important;
+    }
+    .tech-link > a:hover{
+    color:#fff !important;
+    }
+    .prom_courses{
+    text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 400;
+    }
+    .what_we_bckg{
+    background-color:#f7f7f7 !important;
+    }
+    .content-boxes-v3 .content-boxes-in-v3 h3 a{
+    color:#000 !important;;
+    }
+    .block-grid-v1 h3 a{
+    font-weight:400 !important;
+    }
+    .block-grid-v1{
+    background: #F7F7F7 none repeat scroll 0% 0% !important;
+    }
+    .service .service-icon{
+    color: #48AD9E !important;
+    }
+    i.icon-bg-u{
+    background: #2CC081 none repeat scroll 0% 0% !important;
+    }
+/* end landing page */
+
+/* corporate training */
+
+.corp_training{
+	text-align:justify;
+}
+.color-dark-blue {
+    color: #4765A0 !important;
+    font-size: 16px !important;
+}
+.purchase span{
+	color:#000;
+}
+.quote-v2 p {
+	color:#000;
+}
+.headline-center p{
+	text-align:center;
+}
+.flat-testimonials .flat-testimonials-in p{
+	text-align:center;
+}
+.corp_teaser{
+	color:#fff;
+}
+.purchase span{
+	color:#000;
+	text-transform: uppercase;
+}
+.headline-center.headline-light h2{
+	text-transform:uppercase;
+}
+/* end of corporate training */
+
+/* online training */
+
+li{
+	font-size:16px;
+}
+.breadcrumbs-v3.teaser_online{
+	background: transparent url("../images/online_training/facade.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+}
+    .training_heading_q h1{
+        text-align: right;
+        text-transform: none !important;
+        padding-top: 100px;
+        font-size: 42px;
+        padding-right: 10px;
+        font-weight: 600;
+    }
+    .headline h2{
+    border-bottom: 2px solid #495340;
+    text-transform: uppercase;
+    }
+/* end of online training */
+
+/* campus to corporate */
+
+.tag-box{
+	background: #EDE9E9 none repeat scroll 0% 0% !important;
+}
+.tag-box-v1{
+	border-color: #131412 #EEE #EEE !important;
+}
+.p-c2c{
+	font-weight: 400;
+color: #4A4A4A;
+}
+.p-border{
+        border-left: 1px solid;
+        padding-left: 10px;
+    }
+.p-border-right{
+        border-right: 1px solid;
+        padding-right: 10px;
+    }
+.parallax-bg{
+background: transparent url("../images/campus_to_corporate/background.png") repeat fixed 50% center !important;
+}
+.online_training h1 {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: left;
+        font-weight: 400;
+        padding-top: 50px;
+        color: #474F59 !important;
+        padding-left: 100px;
+        text-transform: none !important;
+    }
+    .c2c_content{
+    padding-top:40px;
+    padding-bottom:40px;
+    }
+    .c2c_content p{
+    color:#000;
+    font-size:18px;
+    }
+    .c2c_content{
+    background-color: #F7F7F7;
+    }
+/* end of campus to corporate */
+
+/* footer */
+
+address{
+	color:#777;
+	font-size:16px;
+}
+.footer-v5 .footer .link-news li a{
+	font-size: 14px;
+}
+.footer-v5 .footer .link-news li {
+    padding: 8px 0px !important;
+}
+/* end of footer */
+
+/* about us */
+
+.content-sm{
+	padding-top:0px !important;
+}
+.about-us-heading{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.title-v1 a {
+    color: #fff;
+}
+
+/* end of about us */
+
+/* clientele page */
+
+    .clientele img {
+        padding: 4px;
+        margin: 5px 0px;
+        border: 1px solid #EEE;
+        background: #FAFAFA none repeat scroll 0% 0%;
+    }
+    .clientele-border{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #EEE;
+    }
+
+    .clients-page h3{
+       font-size: 16px !important;
+       margin-bottom: 40px;
+    }
+    .clients-page img{
+        height: 140px;
+        width: 140px;
+    }
+    .client-heading{
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        font-size: 26px;
+        padding-bottom: 15px;
+        border-bottom:1px solid #eee;
+    }
+
+/* end of clientele page */
+
+/* footer */
+.footer-v5 .footer {
+    padding: 20px 0px !important;
+}
+/* end of footer */
+/* theme */
+.mega_li{
+	font-weight:800 !important;
+	font-size:18px !important;
+	/* color:#000 !important; */
+	border-bottom:1px solid #000 !important;
+	padding-bottom:5px !important;
+}
+.header-v5 .mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu li a{
+	background: none;
+	color: #333;
+}
+.header-v5 .mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu li a:hover{
+	border-bottom: 1px solid #ccc
+}
+/* end of theme */
+
+/* menu */
+@media (max-width: 991px){
+	.header-v5 .mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu li a{
+	color: #DDD !important;
+	}
+}
+/* end of menu */
+.grooming_content{
+	font-size: 16px;
+	font-weight: 200;
+}
+/* online training schedule */
+	.cbp img{
+        min-width: 40px !important;
+        min-height: 40px !important;
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .img-center{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .heading-md{
+        color: #000 !important;
+        font-size: 23px !important;
+        text-align: center;
+    }
+    .training_price{
+        color: rgb(145, 207, 89) !important;
+        font-size: 22px;
+    }
+    .service-block-default{
+        min-height: 250px;
+    }
+    .service-block{
+        padding: 10px !important;
+    }
+    .online_training_heading{
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .cube-portfolio #filters-container .cbp-filter-item-active{
+    background:none !important;
+    }
+    .trainings_area{
+    min-height:500px;
+    }
+	.service-block-default{
+	 background: #f2f2f2 none repeat scroll 0% 0%;
+	 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+/* end of online training schedule */
+/* online training course contents */
+    .lighter_text{
+        color: #aaa;
+    }
+    .online_training_box{
+        border: 1px solid #EEEEEE;
+        border-radius: 5px;
+        padding-top: 15px;
+    }
+    .profile .profile-body{
+    	background: #EDEDED none repeat scroll 0% 0% !important;
+    }
+    .profile .profile-blog{
+    	padding:5px !important;
+    	background: #EDEDED none repeat scroll 0% 0% !important;
+    }
+    .online_ch{
+    color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-weight: 500;
+    }
+    .other_title{
+    /* border-bottom:1px solid #eee; */
+    color:#000
+    }
+    .content_descrip{
+    font-size: 16px;
+	font-weight: 300;
+    }
+    .req{
+    color:#000;
+    }
+    .req_points{
+    font-size:14px;
+    margin-top:5px;
+    font-weight:300;
+    }
+    .ol_topics{
+    font-weight:300;
+    }
+/* end of online training course contents */

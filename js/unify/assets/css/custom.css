@@ -1,0 +1,98 @@
+/* Add here all your css styles (customizations) */
+.margin-bottom-5,
+.margin-bottom-10,
+.margin-bottom-15,
+.margin-bottom-20,
+.margin-bottom-25,
+.margin-bottom-30,
+.margin-bottom-35,
+.margin-bottom-40,
+.margin-bottom-45,
+.margin-bottom-50,
+.margin-bottom-55,
+.margin-bottom-60,
+.margin-bottom-100 {
+    clear: none;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.job-img .job-banner h2 {
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: none;
+}
+
+.flat-testimonials .item {
+    margin-bottom: 30px;
+}
+
+.flat-testimonials .carousel-arrow {
+    text-align: center;
+}
+
+.flat-testimonials .carousel-control-v2 i {
+    color: #888;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    font-size: 22px;
+    display: inline-block;
+    border: 2px solid #888;
+}
+
+.flat-testimonials .carousel-control-v2 i:hover {
+    color: #72c02c;
+    border-color: #72c02c;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.flat-testimonials .carousel-control-v2.left,
+.flat-testimonials .carousel-control-v2.right {
+    text-decoration: none;
+    background-image: none;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 220px;
+}
+
+.carousel-arrow {
+    text-align: center;
+}
+
+.carousel-control-v2 i {
+    color: #888;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    font-size: 22px;
+    display: inline-block;
+    border: 2px solid #888;
+}
+
+.carousel-control-v2 i:hover {
+    color: #72c02c;
+    border-color: #72c02c;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-v2.right .carousel-control-v2.left {
+    text-decoration: none;
+    background-image: none;
+}
